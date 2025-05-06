@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.73831349"
-     inkscape:cx="1335.4761"
-     inkscape:cy="1265.7225"
+     inkscape:zoom="5.9065079"
+     inkscape:cx="2160.4982"
+     inkscape:cy="1537.2027"
      inkscape:window-width="1920"
      inkscape:window-height="1014"
      inkscape:window-x="0"
@@ -638,7 +638,7 @@
        id="part_material_data_field"
        x="230.63417"
        y="284.08978"
-       freecad:editable="identification_number"
+       freecad:editable="part_material"
        style="font-size:4.23333px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none"><tspan
          id="tspan105"
          style="font-size:4.23333px">Material</tspan></text>
@@ -672,7 +672,8 @@
        id="scale_data_field"
        x="319.24841"
        y="284.14075"
-       freecad:editable="language_code"
+       freecad:editable="scale"
+       freecad:autofill="scale"
        style="font-size:4.23333px;font-family:osifont;text-align:center;text-anchor:middle;fill:#000000;stroke:none"><tspan
          id="tspan117"
          style="font-size:4.23333px">1:1</tspan></text>
@@ -685,24 +686,24 @@
        id="project_code_data_field"
        x="297.81509"
        y="284.17038"
-       freecad:editable="language_code"
+       freecad:editable="project_code"
        style="font-size:4.23333px;font-family:osifont;text-align:center;text-anchor:middle;fill:#000000;stroke:none"><tspan
          id="tspan117-7"
-         style="font-size:4.23333px">N</tspan></text>
+         style="font-size:4.23333px">0001</tspan></text>
     <text
        id="approval_person_data_field"
        x="231"
        y="260.20001"
-       freecad:editable="title"
-       freecad:autofill="title"
+       freecad:editable="approval_person"
        style="font-size:4.23333px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none"><tspan
          id="tspan120"
-         style="font-size:4.23333px">Nome aproavação</tspan></text>
+         style="font-size:4.23333px">Nome aprovação</tspan></text>
     <text
        id="title_data_field"
        x="286.46786"
        y="272.2254"
-       freecad:editable="approval_person"
+       freecad:editable="title"
+       freecad:autofill="title"
        style="font-size:4.23333px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none"><tspan
          id="tspan123"
          style="font-size:4.23333px">Título da folha</tspan></text>
@@ -710,8 +711,8 @@
        id="owner_data_field"
        x="286.65842"
        y="260.20001"
-       freecad:editable="creator"
-       freecad:autofill="author"
+       freecad:editable="owner"
+       freecad:autofill="owner"
        style="font-size:5px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none"><tspan
          id="tspan126">Instituição/Empresa</tspan></text>
     <text
@@ -719,6 +720,7 @@
        x="231"
        y="272.20001"
        freecad:editable="document_type"
+       freecad:autofill="creator"
        style="font-size:4.23333px;font-family:osifont;text-anchor:start;fill:#000000;stroke:none"><tspan
          id="tspan129"
          style="font-size:4.23333px">Nome autor</tspan></text>
